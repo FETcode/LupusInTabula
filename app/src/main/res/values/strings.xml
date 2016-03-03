@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">LupusInTabula</string>
+    <string name="go">Go</string>
+    <string name="play">Play</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="dialog_title">Personaggi</string>
+    <string name="dialog_message1">Hai ancora</string>
+    <string name="dialog_message2">rimasti. Per favore scegli:</string>
+    <string name="villy">Villico</string>
+    <string name="special">Speciale</string>
+    <string name="switcherPlus">+</string>
+    <string name="switcherMinus">-</string>
+    <string name="zero">0</string>
+    <string name="questionRemaining">Personaggi rimanenti:</string>
+    <string name="get_names_editText">Nome</string>
+    <string name="get_names_text1">Come vi chiamate?</string>
+    <string name="get_names_text2">Ancora x rimanenti</string>
+    <string name="get_names_buttonAdd">Aggiungi</string>
+    <string name="get_names_buttonUndo">Undo</string>
+    <string name="get_names_buttonNext">Next</string>
+    <string name="get_names_hint">Inserisci un nome</string>
+    <!-- PlayersNames -->
+    <string name="complete">Nomi completati</string>
+    <string name="formatted_string1">Ancora %d rimanenti</string>
+    <string name="formatted_string0">Ancora %d rimanente</string>
+    <string name="playersPickerQuestion">Quanti giocatori?</string>
+
+
+    <!--Characters-->
+    <string name="demoniac">Demoniac</string>
+    <string name="guard">Guard</string>
+    <string name="masons">Masons</string>
+    <string name="medium">Medium</string>
+    <string name="mythomaniac">Mythomaniac</string>
+    <string name="owl">Owl</string>
+    <string name="villager">Villager</string>
+    <string name="werehamster">Werehamster</string>
+    <string name="wolf">Wolf</string>
+
+    <!-- Game -->
+        <!-- Night -->
+
+    <string-array name="night">
+        <item>E\' notte a Scurcola, tutti dormono. Ma nella popolazione si nascondono dei lupi mannari, i quali, affamati, non aspettano altro che le tenebre per iniziare a banchettare insieme!</item>
+        <item>Calano le tenebre su Scurcola</item>
+        <item>Il buio ricopre Scurcola</item>
+        <item>E\' notte</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>Buongiorno </item>
+        <item>Buongiorno Scurcola!</item>
+        <item>I raggi di sole fanno risplendere Scurcola</item>
+        <item>Scurcola s\'illumina d\'immenso</item>
+    </string-array>
+
+    <string-array name="masons">
+        <item>I Massoni aprono gli occhi</item>
+        <item>I Massoni si riconoscono</item>
+        <item>I massoni si trovano a vicenda</item>
+        <item>I massoni si trovano a vicenda</item>
+    </string-array>
+
+    <string-array name="wolves">
+        <item>I Lupi aprono gli occhi</item>
+        <item>I Lupi riconoscono il loro ululato, e si scorgono tra le tenebre</item>
+        <item>I Lupi si riuniscono in branco</item>
+        <item>I Lupi si riuniscono in branco</item>
+    </string-array>
+
+    <string-array name="masterDead">
+        <item>Durante la notte, i lupi hanno sbranato il nostro caro Master!</item>
+        <item>I lupi hanno, affamati, hanno sbranato il nostro Master sta notte!</item>
+        <item>Questa notte è stato sbranato il nostro Master!</item>
+        <item>Questa notte è stato sbranato il nostro Master!</item>
+    </string-array>
+
+    <string-array name="dialogue">
+        <item>Chi sarà stato?</item>
+        <item>L\'intero paese scioccato cerca di trovare il responsabile.</item>
+        <item>Il paese inizia subito a fare delle ipotesi sui possibili colpevoli.</item>
+        <item>Il paese inizia subito a fare delle ipotesi sui possibili colpevoli.</item>
+    </string-array>
+
+    <string-array name="votesOne">
+        <item>Ogni paesano dice la sua su chi pensa sia colpevole.</item>
+        <item>Il paese vota contro i colpevoli.</item>
+        <item>Il paese rivela i possibili colpevoli!</item>
+        <item>Il paese rivela i possibili colpevoli!</item>
+    </string-array>
+
+    <string-array name="harangue">
+        <item>I sospettati cercano di provare la loro innocenza.</item>
+        <item>Il paese ascolta dunque le arringhe degli imputati.</item>
+        <item>Vengono esposte le arringhe all\'intero paese.</item>
+        <item>Vengono esposte le arringhe all\'intero paese.</item>
+    </string-array>
+
+    <string-array name="votesTwo">
+        <item>I paesani condannano a morte uno dei sospettati.</item>
+        <item>Il paese decide chi linciare.</item>
+        <item>Ora l\'ultima parola spetta ai paesani!</item>
+        <item>Ora l\'ultima parola spetta ai paesani!</item>
+    </string-array>
+
+    <string-array name="lynching">
+        <item>Viene così uscciso </item>
+        <item>Il paese decide di linciare </item>
+        <item>I paesani decidono di linciare </item>
+        <item>I paesani decidono di linciare </item>
+    </string-array>
+
+    <string-array name="clairvoyant">
+        <item>clairvoyant</item>
+        <item>clairvoyant</item>
+        <item>clairvoyant</item>
+        <item>clairvoyant</item>
+    </string-array>
+
+    <string-array name="medium">
+        <item>medium</item>
+        <item>medium</item>
+        <item>medium</item>
+        <item>medium</item>
+    </string-array>
+
+    <string-array name="owl">
+        <item>owl</item>
+        <item>owl</item>
+        <item>owl</item>
+        <item>owl</item>
+    </string-array>
+
+    <string-array name="guard">
+        <item>guard</item>
+        <item>guard</item>
+        <item>guard</item>
+        <item>guard</item>
+    </string-array>
+
+    <string-array name="mythomaniac">
+        <item>mythomaniac</item>
+        <item>mythomaniac</item>
+        <item>mythomaniac</item>
+        <item>mythomaniac</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CharactersPicker">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switcherPlus"
+        android:id="@+id/switcher"
+        android:onClick="setSwitcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="75sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/zero"
+        android:id="@+id/playersLeft"
+        android:layout_below="@+id/question"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/questionRemaining"
+        android:id="@+id/question"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:id="@+id/toGame"
+        android:onClick="done"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/demoniac"
+        android:id="@+id/demoniac"
+        android:onClick="demoniac"
+        android:layout_alignTop="@+id/guard"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guard"
+        android:id="@+id/guard"
+        android:onClick="guard"
+        android:layout_above="@+id/switcher"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/masons"
+        android:id="@+id/masons"
+        android:onClick="masons"
+        android:layout_above="@+id/owl"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/medium"
+        android:id="@+id/medium"
+        android:onClick="medium"
+        android:layout_below="@+id/demoniac"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/owl"
+        android:id="@+id/owl"
+        android:onClick="owl"
+        android:layout_above="@+id/mythomaniac"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/villager"
+        android:id="@+id/villager"
+        android:onClick="villager"
+        android:layout_below="@+id/medium"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/werehamster"
+        android:id="@+id/werehamster"
+        android:onClick="werehamster"
+        android:layout_below="@id/switcher"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mythomaniac"
+        android:id="@+id/mythomaniac"
+        android:onClick="mythomaniac"
+        android:layout_below="@+id/medium"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
